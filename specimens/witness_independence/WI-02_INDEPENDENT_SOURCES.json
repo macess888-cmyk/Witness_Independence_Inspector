@@ -1,0 +1,20 @@
+{
+  "case_id": "WI-02_INDEPENDENT_SOURCES",
+  "description": "Two receipts originate from distinct upstream sources with independence established in the specimen.",
+  "receipts": [
+    {
+      "receipt_id": "R1",
+      "witness_id": "W1",
+      "source_id": "S1",
+      "derived_dataset_id": null
+    },
+    {
+      "receipt_id": "R2",
+      "witness_id": "W2",
+      "source_id": "S2",
+      "derived_dataset_id": null
+    }
+  ],
+  "source_independence_known": true,
+  "expected_standing": "INDEPENDENCE_ESTABLISHED"
+}

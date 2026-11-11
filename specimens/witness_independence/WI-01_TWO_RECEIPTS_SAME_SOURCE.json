@@ -1,0 +1,20 @@
+{
+  "case_id": "WI-01_TWO_RECEIPTS_SAME_SOURCE",
+  "description": "Two receipts and two nominal witnesses derive from the same upstream source.",
+  "receipts": [
+    {
+      "receipt_id": "R1",
+      "witness_id": "W1",
+      "source_id": "S1",
+      "derived_dataset_id": null
+    },
+    {
+      "receipt_id": "R2",
+      "witness_id": "W2",
+      "source_id": "S1",
+      "derived_dataset_id": null
+    }
+  ],
+  "source_independence_known": true,
+  "expected_standing": "CORRELATED_SOURCE"
+}

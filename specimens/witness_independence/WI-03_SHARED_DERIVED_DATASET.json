@@ -1,0 +1,20 @@
+{
+  "case_id": "WI-03_SHARED_DERIVED_DATASET",
+  "description": "Two nominal witnesses use distinct labels but depend on the same derived dataset.",
+  "receipts": [
+    {
+      "receipt_id": "R1",
+      "witness_id": "W1",
+      "source_id": "S1",
+      "derived_dataset_id": "D1"
+    },
+    {
+      "receipt_id": "R2",
+      "witness_id": "W2",
+      "source_id": "S2",
+      "derived_dataset_id": "D1"
+    }
+  ],
+  "source_independence_known": true,
+  "expected_standing": "CORRELATED_SOURCE"
+}

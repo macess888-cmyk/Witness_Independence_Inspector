@@ -1,0 +1,14 @@
+{
+  "case_id": "WI-00_SINGLE_SOURCE",
+  "description": "One receipt derives from one upstream source.",
+  "receipts": [
+    {
+      "receipt_id": "R1",
+      "witness_id": "W1",
+      "source_id": "S1",
+      "derived_dataset_id": null
+    }
+  ],
+  "source_independence_known": true,
+  "expected_standing": "INDEPENDENCE_NOT_ESTABLISHED"
+}

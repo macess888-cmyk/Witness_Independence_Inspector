@@ -1,0 +1,83 @@
+{
+  "artifact": "DELTA-005 Witness Independence Reference Freeze",
+  "frozen_at": "2026-11-11T12:27:14.9882062Z",
+  "repository": "Witness_Independence_Inspector",
+  "base_head": "3205717fda62228e573e49ba68fcc2ea669484dd",
+  "standing": "BOUNDED_GREEN",
+  "regression": {
+    "passed": 20,
+    "failed": 0
+  },
+  "tested_cases": [
+    "WI-00_SINGLE_SOURCE",
+    "WI-01_TWO_RECEIPTS_SAME_SOURCE",
+    "WI-02_INDEPENDENT_SOURCES",
+    "WI-03_SHARED_DERIVED_DATASET",
+    "WI-04_INDEPENDENCE_UNKNOWN"
+  ],
+  "states": [
+    "INDEPENDENCE_ESTABLISHED",
+    "CORRELATED_SOURCE",
+    "INDEPENDENCE_NOT_ESTABLISHED",
+    "HOLD"
+  ],
+  "diagnostics": [
+    "INSUFFICIENT_INDEPENDENT_ORIGINS",
+    "SHARED_UPSTREAM_SOURCE",
+    "SHARED_DERIVED_DATASET",
+    "INDEPENDENCE_UNKNOWN"
+  ],
+  "boundaries": [
+    "Multiple receipts do not establish independent corroboration",
+    "Multiple nominal witnesses do not establish independent origins",
+    "Shared upstream source establishes correlation in the tested specimen",
+    "Shared derived dataset establishes correlation in the tested specimen",
+    "Correlated evidence remains evidence",
+    "Independence established does not establish claim truth",
+    "Independence established does not establish authority",
+    "Expected specimen standing is not inspection input",
+    "UNKNOWN maps to HOLD within the bounded experiment"
+  ],
+  "files": [
+    {
+      "path": "docs/DELTA_005_PROVENANCE.json",
+      "sha256": "70A20DE6EEFE897A198CCF08032F5B936A7A8A6776A0CA6BB8563FFF2DADDAE3"
+    },
+    {
+      "path": "specimens/witness_independence/WI-00_SINGLE_SOURCE.json",
+      "sha256": "D0A1770357D130FCC8DE9B8FFDBE777B10E355360E600AEFD83CE6A0B88B0E05"
+    },
+    {
+      "path": "specimens/witness_independence/WI-01_TWO_RECEIPTS_SAME_SOURCE.json",
+      "sha256": "FA5330AF36921F21BBF11A522DF1BC338415470B0AA0E4CE5E1742FB5490F028"
+    },
+    {
+      "path": "specimens/witness_independence/WI-02_INDEPENDENT_SOURCES.json",
+      "sha256": "5929B9A03E27BDEB53A11A2E1B24D136B6FF9B0417F82877BF40628704B760B8"
+    },
+    {
+      "path": "specimens/witness_independence/WI-03_SHARED_DERIVED_DATASET.json",
+      "sha256": "7F61095DE969D55FBC097E68BB2869CC8AE2E0DF6C70B48196BDFA009B708A8C"
+    },
+    {
+      "path": "specimens/witness_independence/WI-04_INDEPENDENCE_UNKNOWN.json",
+      "sha256": "E16116F3852E6F796EF229B30143A91DB6EA3E7862BED8C090587357552675C9"
+    },
+    {
+      "path": "src/witness_independence/__init__.py",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "src/witness_independence/inspector.py",
+      "sha256": "204D43BF31171707D55F3B37CE251F89658FF08BA3138173480C39B25ED91C72"
+    },
+    {
+      "path": "tests/test_witness_independence_case_contract.py",
+      "sha256": "DAF6D621DB03E10FB7E43AAC2CDF93EA54DA4191C7835963F0AA304871719D09"
+    },
+    {
+      "path": "tests/test_witness_independence_semantics_red.py",
+      "sha256": "AA08A16146AED53E9752EF35A3E4E6CBC3903AEBDAE6A2ED2BA41F6622ED28DD"
+    }
+  ]
+}
