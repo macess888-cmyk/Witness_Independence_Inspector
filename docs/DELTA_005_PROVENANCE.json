@@ -1,0 +1,22 @@
+{
+  "artifact": "DELTA-005 Witness Independence Provenance",
+  "repository": "Witness_Independence_Inspector",
+  "origin": {
+    "architecture_checkpoint": "FOUR_DELTA_ARCHITECTURE_CHECKPOINT",
+    "overlap_inspection": "DELTA_005_CANDIDATE_SEMANTIC_OVERLAP_INSPECTION"
+  },
+  "related_existing_surfaces": [
+    "Orocore_Governed_Continuity_Architecture",
+    "Hybrid_Witness_Traceability_Model",
+    "Research_OS",
+    "OROCORE_Hybrid_Experiments"
+  ],
+  "candidate_question": "Can multiple receipts or nominal witnesses be distinguished from genuinely independent corroborating sources?",
+  "invariant": "receipt_count > 1 does not establish independent_witness_count > 1",
+  "authority_inherited": false,
+  "claim_truth_created": false,
+  "admissibility_created": false,
+  "execution_authority_created": false,
+  "evidence_discarded_when_correlated": false,
+  "standing": "FOUNDATION_ONLY"
+}
